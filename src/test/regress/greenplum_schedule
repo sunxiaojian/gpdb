@@ -81,6 +81,7 @@ test: workfile_limits
 test: segspace
 
 test: cursor
+test: gp_combocid
 
 # 'query_finish_pending' sets QueryFinishPending flag to true during query execution using fault injectors
 # so it needs to be in a group by itself
